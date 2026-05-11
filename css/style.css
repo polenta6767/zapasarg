@@ -112,3 +112,16 @@ a {
     color: #3483fa;
     text-decoration: none;
 }
+/* EFECTO TARJETA PRODUCTO */
+article {
+    transition: transform 0.2s ease;
+}
+
+.producto {
+    transition: transform 0.2s ease;
+}
+
+.producto:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
